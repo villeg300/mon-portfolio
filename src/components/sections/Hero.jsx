@@ -18,8 +18,8 @@ function Hero() {
                             {HERO_CONTENT}
                         </p>
                         <div className=' max-w-xl w-full'>
-                            <button className='w-full lg:w-5/12 bg-primary text-white px-6 py-3 rounded-xl text-lg font-semibold border-2 border-primary hover:bg-white hover:text-primary hover:border-2 hover:border-primary transition-all duration-300 md:px-8 md:py-4 md:text-xl mb-3 lg:me-3'>Mes Projets</button> 
-                            <button className='w-full lg:w-5/12 bg-secondary text-white px-6 py-3 rounded-xl text-lg font-semibold border-2 border-secondary hover:bg-white hover:text-secondary hover:border-2 hover:border-secondary transition-all duration-300 md:px-8 md:py-4 md:text-xl'>Me Contacter</button>
+                            {/* <button className='w-full lg:w-5/12 bg-primary text-white px-6 py-3 rounded-xl text-lg font-semibold border-2 border-primary hover:bg-white hover:text-primary hover:border-2 hover:border-primary transition-all duration-300 md:px-8 md:py-4 md:text-xl mb-3 lg:me-3'>Mes Projets</button>  */}
+                            <a href='mailto:villeg300@gmail.com' className='w-full lg:w-5/12 bg-secondary text-white px-6 py-3 rounded-xl text-lg font-semibold border-2 border-secondary hover:bg-white hover:text-secondary hover:border-2 hover:border-secondary transition-all duration-300 md:px-8 md:py-4 md:text-xl cursor-pointer'>Me Contacter</a>
                         </div>
                     </div>
                 </div>
