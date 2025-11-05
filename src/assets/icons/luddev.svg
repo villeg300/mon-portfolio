@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="124" height="24" viewBox="0 0 124 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path d="M7.86804 0L13.533 0L5.97971 12.1559L11.0153 19.3247L7.86804 24L0 12.1559L7.86804 0Z" fill="#F80830" fill-rule="evenodd" transform="translate(38.711 0)" />
+    <path d="M15.736 0L21.4009 0L5.66495 24L0 24L15.736 0Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(48.782 0)" />
+    <path d="M5.97968 0L13.8476 12.1559L5.97968 24L0 24L7.86801 12.1559L2.83249 4.36364L5.97968 0Z" fill="#F80830" fill-rule="evenodd" transform="translate(66.721 0)" />
+    <path d="M0 0L4.72081 0L4.72081 19.6364L14.7919 19.6364L14.7919 23.6883L0 23.6883L0 0Z" fill="#FFFFFF" fill-rule="evenodd" />
+    <path d="M0 14.6493L0 0L4.72083 0L4.72083 14.6494C4.72082 21.8182 14.4772 21.8182 14.4772 14.6494L14.4772 0L19.198 0L19.198 14.6494C19.3161 26.4935 0 26.4935 0 14.6493Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(16.995 0)" />
+    <path d="M0 0.155846L16.0508 0L16.0508 4.05194L5.03554 4.05194L5.03554 9.97402L15.1066 9.97402L15.1066 14.026L5.03554 14.026L5.03554 19.6364L16.0508 19.6364L16.0508 23.6883L0 23.6883L0 0.155846Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(82.771 0)" />
+    <path d="M0 0L5.66498 0L11.33 18.0779L11.6447 18.0779L17.3097 0L22.9746 0L14.7919 23.6883L8.18275 23.6883L0 0Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(101.025 0)" />
+  </g>
+</svg>
