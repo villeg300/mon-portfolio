@@ -12,7 +12,7 @@ function HomePage() {
         <Navbar/>
         <Hero/>
     </div>
-    <div className=' overflow-hidden md:px-0 bg-background-secondary/60 backdrop-blur-md'>
+    <div className=' overflow-hidden md:px-0 bg-background-secondary/60 backdrop-blur-md py-12 space-y-12'>
       <About/>
       <Technologies/>
       <Experiences/>

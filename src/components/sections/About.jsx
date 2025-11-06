@@ -13,7 +13,13 @@ function About() {
                             <p className=' my-3 max-w-sm md:max-w-xl text-lg text-center md:text-left'>{ABOUT_TEXT}</p>
                         </div>
                         <div className='mt-3'>
-                            <a href='mailto:villeg300@gmail.com' className='w-full lg:w-7/12 mt-3 bg-secondary text-white px-6 py-3 rounded-xl text-lg font-semibold border-2 border-secondary hover:bg-white hover:text-secondary hover:border-2 hover:border-secondary transition-all duration-300 md:px-8 md:py-4 md:text-xl'>Contactez-moi</a>
+                            <a
+                                href='mailto:villeg300@gmail.com'
+                                className='block w-full sm:w-11/12 md:w-3/4 lg:w-7/12 mx-auto lg:mx-0 mt-3 bg-secondary text-white px-4 py-2.5 sm:px-6 sm:py-3 rounded-xl text-base md:text-lg font-semibold border-2 border-secondary hover:bg-white hover:text-secondary transition-all duration-300 text-center'
+                                aria-label='Contactez moi par email'
+                            >
+                                Contactez-moi
+                            </a>
                         </div>
                     </div>
                     <div className=' w-full lg:w-1/2 lg:p-8'>
