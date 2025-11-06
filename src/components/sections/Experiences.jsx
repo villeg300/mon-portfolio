@@ -1,9 +1,15 @@
 import { EXPERIENCES } from '../../assets/data'
+import { motion, useReducedMotion } from 'framer-motion'
 
 function Experiences() {
+    const prefersReduced = useReducedMotion()
+    const sectionAnim = prefersReduced
+        ? {}
+        : { initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: false, amount: 0.18 }, transition: { duration: 0.7, ease: 'easeOut' } }
+
     return (
         <div>
-            <div className=' max-w-6xl mx-auto pb-20'>
+            <motion.div className=' max-w-6xl mx-auto pb-20' {...sectionAnim}>
                 <h2 className=' mb-8 pt-0 text-center text-3xl'><span className='text-neutral-500'>Mes</span> Expériences</h2>
                 <div className='p-3'>
                     {EXPERIENCES.map((experience, index) => (
@@ -30,7 +36,7 @@ function Experiences() {
                         </div>
                     ))}
                 </div>
-            </div>
+            </motion.div>
         </div>
     )
 }

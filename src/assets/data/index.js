@@ -1,67 +1,58 @@
-export const HERO_CONTENT = `Moi, c’est Ludovic Moyenga, alias LudDev.
-Passionné par le code et le design, je développe des interfaces élégantes et des applications intuitives, alliant créativité et performance pour offrir des solutions adaptées à vos besoins.`;
+export const HERO_CONTENT = `Moi, c’est Ludovic Moyenga (LudDev).
+Passionné par le code et le design, je conçois des interfaces élégantes et des applications intuitives, alliant créativité et performance pour proposer des solutions adaptées aux besoins des utilisateurs.`;
 
-export const ABOUT_TEXT = `Développeur passionné par la conception de solutions web modernes et performantes, je mets l’accent sur la qualité du code, l’expérience utilisateur et le design fonctionnel.
-Fort d’une approche à la fois analytique et créative, j’aime transformer des idées en produits concrets, fiables et esthétiques. Mon travail s’appuie sur une maîtrise des technologies telles que Django, 
-React et Tailwind CSS, me permettant d’assurer la cohérence entre le backend et le frontend.
-Mon objectif est de créer des applications à la fois robustes, intuitives et élégantes, tout en continuant à explorer de nouvelles technologies pour affiner mes compétences et repousser les limites de mes projets.`
+export const ABOUT_TEXT = `Développeur passionné par la conception de solutions web modernes et performantes, je m'attache à produire un code propre, une excellente expérience utilisateur et un design fonctionnel.
+Alliant rigueur analytique et sens créatif, je transforme des idées en produits concrets, fiables et esthétiques. Je maîtrise notamment Django, React et Tailwind CSS, ce qui me permet d'assurer la cohérence entre le backend et le frontend.
+Mon objectif est de créer des applications robustes, intuitives et élégantes, tout en continuant d'explorer de nouvelles technologies pour faire évoluer mes compétences.`;
 
 export const EXPERIENCES = [
   {
-    year: "05-11-2025 | présent",
+    year: "Nov 2025 – présent",
     role: "Développeur Frontend & Backend",
     company: "Projets personnels",
     description:
-      "Conception et développement d'un portfolio web modernes avec Django, React et Tailwind CSS. Création de ma propre API d'envoi d'email et Optimisation des performances pour offrir des expériences utilisateur fluides.",
-    github:"https://github.com/villeg300/mon-portfolio",
-    preview:"./",
-    technologies: ["Django", "React","Vite", "Tailwind CSS", "PostgreSQL", "REST API","Git"],
+      "Conception et développement d'un portfolio web moderne avec Django, React et Tailwind CSS. Développement d'une API d'envoi d'e-mails et optimisation des performances pour offrir une expérience utilisateur fluide.",
+    github: "https://github.com/villeg300/mon-portfolio",
+    preview: "./",
+    technologies: ["Django", "React", "Vite", "Tailwind CSS", "PostgreSQL", "REST API", "Git"],
   },
   {
-    year: "sep 2025",
+    year: "Sep 2025",
     role: "Développeur Frontend Junior",
     company: "Projet personnel",
     description:
-      "Creation d'un premier portfolio web pour présenter mes compétences et projets. Utilisation de HTML, CSS et Java Script pour un design présentable et responsive.",
-    github:"https://github.com/villeg300/luddev-portfolio",
-    preview:"https://villeg300.github.io/luddev-portfolio/",
-      technologies: ["HTML", "CSS", "Python", "Git"],
+      "Création d'un premier portfolio pour présenter mes compétences et projets. Mise en œuvre d'un design responsive avec HTML, CSS et JavaScript.",
+    github: "https://github.com/villeg300/luddev-portfolio",
+    preview: "https://villeg300.github.io/luddev-portfolio/",
+    technologies: ["HTML", "CSS", "JavaScript", "Git"],
   },
   {
-    year: "10-06-2025 | 16-09-2025",
+    year: "02–17 Sep 2025",
+    role: "Développeur Frontend & Backend",
+    company: "Projets personnels / Entraînement",
+    description:
+      "Conception d'un site e‑commerce fictif : backend Django et frontend React. Implémentation de la gestion des produits, du panier et du tunnel de paiement. Intégration d'une solution de paiement (Cinetpay).",
+    github: "https://github.com/villeg300/woodiTech",
+    technologies: ["Django", "Django REST Framework", "React", "HTML", "CSS", "JavaScript", "PostgreSQL", "Git"],
+  },
+  {
+    year: "10 Jun – 16 Sep 2025",
     role: "Développeur Frontend",
     company: "Projets personnels / Entraînement",
     description:
-      "Creation d'une landing page pour une app de gestion de stock et de vente fictive. Mise en œuvre de designs modernes et responsives en utilisant React et Tailwind CSS, avec un accent sur l'expérience utilisateur et l'esthétique visuelle.",
-    github:"https://github.com/villeg300/gesticom-landing-page",
-    preview:"https://gesticom-19b85.web.app",
-      technologies: ["React", "Vite", "Tailwind CSS","Git", "Tutoriel Youtube"],
+      "Création d'une landing page pour une application de gestion de stock et de vente fictive. Réalisation d'un design moderne et responsive avec React et Tailwind CSS, en mettant l'accent sur l'UX.",
+    github: "https://github.com/villeg300/gesticom-landing-page",
+    preview: "https://gesticom-19b85.web.app",
+    technologies: ["React", "Vite", "Tailwind CSS", "Git"],
   },
   {
-    year: "mars 2025",
-    role: "Développeur Frontend avec L'IA",
+    year: "Mar 2025",
+    role: "Développeur Frontend (IA)",
     company: "Projet personnel / Entraînement",
     description:
-      "Création d'un site web pour un restaurant local en utilisant des outils d'IA pour le frontend (React, Tailwind CSS). Mise en place d'un design attrayant et responsive pour améliorer la présence en ligne du restaurant.",
-     github:"https://github.com/villeg300/yelba-warmth-experience",   
-     preview:"https://yelba-warmth-experience.lovable.app/",   
-      technologies: ["Lovable AI", "React", "Tailwind CSS", "Git"],
+      "Développement d'un site pour un restaurant local en utilisant des outils d'IA côté frontend (React, Tailwind CSS). Mise en place d'un design attractif et responsive pour améliorer la présence en ligne.",
+    github: "https://github.com/villeg300/yelba-warmth-experience",
+    preview: "https://yelba-warmth-experience.lovable.app/",
+    technologies: ["Lovable AI", "React", "Tailwind CSS", "Git"],
   },
-  {
-    year: "02-09-2025 | 17-09-2025",
-    role: "Développeur Frontend & Backend",
-    company: "Projets personnels / entraînement",
-    description:
-      "Conception d'un site de e-commerce fictif avec Django pour le backend et React pour le frontend. Implémentation de fonctionnalités telles que la gestion des produits, le panier d'achat et le processus de paiement. Intégration de l'API Cinetpay pour les paiements en ligne Mobile money.",
-    github:"https://github.com/villeg300/woodiTech",    
-    technologies: ["Django", "Django Rest","REST API", "HTML","CSS", "Java Scrip", "PostgreSQL", "Git"],
-  },
-//   {
-//     year: "2025",
-//     role: "Développeur Frontend",
-//     company: "Projet personnel",
-//     description:
-//       "Apprentissage et mise en pratique du développement web moderne. Création de mini-projets en HTML, CSS et JavaScript pour maîtriser les bases du design responsive.",
-//     technologies: ["HTML", "CSS", "JavaScript"],
-//   },
 ];

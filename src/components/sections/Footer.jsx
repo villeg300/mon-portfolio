@@ -17,7 +17,7 @@ function Footer() {
                         <p className='text-sm mt-1'>
                             <a href='tel:+33600000000' className='inline-flex items-center gap-2 hover:underline'>
                                 <FaPhone />
-                                +33 6 00 00 00 00
+                                +226 74 37 28 78
                             </a>
                         </p>
                     </div>

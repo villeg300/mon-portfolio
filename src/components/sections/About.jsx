@@ -1,10 +1,16 @@
 import React from 'react'
 import Moi2 from "../../assets/images/about-img3.png"
 import { ABOUT_TEXT } from '../../assets/data'
+import { motion, useReducedMotion } from 'framer-motion'
 
 function About() {
+    const prefersReduced = useReducedMotion()
+    const sectionAnim = prefersReduced
+        ? {}
+        : { initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: false, amount: 0.2 }, transition: { duration: 0.7, ease: 'easeOut' } }
+
     return (
-        <div className=' border-b border-background'>
+        <motion.section className=' border-b border-background' {...sectionAnim}>
             <div className=' max-w-6xl mx-auto'>
                     <h2 className=' my-8 pt-4 text-center text-3xl'>A Propos de <span className='text-neutral-500'>Moi</span></h2>
                 <div className="flex flex-wrap-reverse">
@@ -29,7 +35,7 @@ function About() {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.section>
     )
 }
 
