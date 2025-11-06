@@ -13,8 +13,8 @@ function Hero() {
                 </div>
                 <div className=' w-full lg:w-1/2 mt-3'>
                     <div className=' flex flex-col items-center lg:items-start'>
-                        <h1 className=' pb-8 text-4xl text-center font-bold leading-tight md:text-6xl lg:text-left lg:mt-16 lg:text-7xl'><span className='block pb-2 lg:pb-6'>Développeur</span> <span className=' text-3xl text-neutral-300 font-light md:text-5xl lg:text-6xl'><span>web</span> <span className='text-secondary font-extrabold'>&</span> <span>mobile</span></span></h1>
-                        <p className=' text-xl my-2 max-w-xl py-6 font-light md:text-2xl md:font-normal'>
+                        <h1 className=' pb-2 text-4xl text-center font-bold leading-tight md:text-6xl lg:text-left lg:mt-16 lg:text-7xl'><span className='block pb-2 lg:pb-2'>Développeur</span> <span className=' text-3xl text-neutral-300 font-light md:text-5xl lg:text-6xl'><span>web</span> <span className='text-secondary font-extrabold'>&</span> <span>mobile</span></span></h1>
+                        <p className=' text-xl my-2 max-w-xl py-6 font-light md:text-2xl md:font-normal text-neutral-300'>
                             {HERO_CONTENT}
                         </p>
                         <div className=' max-w-xl w-full'>

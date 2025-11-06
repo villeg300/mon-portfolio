@@ -14,16 +14,8 @@ export const EXPERIENCES = [
     description:
       "Conception et développement d'un portfolio web modernes avec Django, React et Tailwind CSS. Création de ma propre API d'envoi d'email et Optimisation des performances pour offrir des expériences utilisateur fluides.",
     github:"https://github.com/villeg300/mon-portfolio",
+    preview:"./",
     technologies: ["Django", "React","Vite", "Tailwind CSS", "PostgreSQL", "REST API","Git"],
-  },
-  {
-    year: "02-09-2025 | 17-09-2025",
-    role: "Développeur Frontend & Backend",
-    company: "Projets personnels / entraînement",
-    description:
-      "Conception d'un site de e-commerce fictif avec Django pour le backend et React pour le frontend. Implémentation de fonctionnalités telles que la gestion des produits, le panier d'achat et le processus de paiement. Intégration de l'API Cinetpay pour les paiements en ligne Mobile money.",
-    github:"https://github.com/villeg300/woodiTech",    
-    technologies: ["Django", "Django Rest","REST API", "HTML","CSS", "Java Scrip", "PostgreSQL", "Git"],
   },
   {
     year: "sep 2025",
@@ -54,6 +46,15 @@ export const EXPERIENCES = [
      github:"https://github.com/villeg300/yelba-warmth-experience",   
      preview:"https://yelba-warmth-experience.lovable.app/",   
       technologies: ["Lovable AI", "React", "Tailwind CSS", "Git"],
+  },
+  {
+    year: "02-09-2025 | 17-09-2025",
+    role: "Développeur Frontend & Backend",
+    company: "Projets personnels / entraînement",
+    description:
+      "Conception d'un site de e-commerce fictif avec Django pour le backend et React pour le frontend. Implémentation de fonctionnalités telles que la gestion des produits, le panier d'achat et le processus de paiement. Intégration de l'API Cinetpay pour les paiements en ligne Mobile money.",
+    github:"https://github.com/villeg300/woodiTech",    
+    technologies: ["Django", "Django Rest","REST API", "HTML","CSS", "Java Scrip", "PostgreSQL", "Git"],
   },
 //   {
 //     year: "2025",

@@ -1,6 +1,7 @@
 import Navbar from '../components/layout/Navbar';
 import About from '../components/sections/About';
 import Experiences from '../components/sections/Experiences';
+import Footer from '../components/sections/Footer';
 import Hero from '../components/sections/Hero';
 import Technologies from '../components/sections/Technologies';
 
@@ -11,12 +12,12 @@ function HomePage() {
         <Navbar/>
         <Hero/>
     </div>
-    <div className=' overflow-hidden md:px-36 bg-background-secondary/60 backdrop-blur-md'>
+    <div className=' overflow-hidden md:px-0 bg-background-secondary/60 backdrop-blur-md'>
       <About/>
       <Technologies/>
       <Experiences/>
+      <Footer/>
     </div>
-
     </>
   );
 }
