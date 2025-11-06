@@ -11,10 +11,10 @@ function Navbar() {
                 <a href='https://github.com/villeg300' target='_blank' rel='noreferrer' aria-label='GitHub'>
                     <FaGithub className=' cursor-pointer hover:text-gray-300' />
                 </a>
-                <a href='#' target='_blank' rel='noreferrer' aria-label='LinkedIn'>
+                <a href='https://www.linkedin.com/in/ludovic-moyenga' target='_blank' rel='noreferrer' aria-label='LinkedIn'>
                     <FaLinkedin className=' cursor-pointer hover:text-blue-500' />
                 </a>
-                <a href='#' target='_blank' rel='noreferrer' aria-label='Facebook'>
+                <a href='https://web.facebook.com/profile.php?id=100082321161732' target='_blank' rel='noreferrer' aria-label='Facebook'>
                     <FaFacebook className=' cursor-pointer hover:text-blue-600' />
                 </a>
             </div>
