@@ -27,10 +27,10 @@ function Footer() {
                             <a href='https://github.com/villeg300' target='_blank' rel='noreferrer' aria-label='GitHub' className='hover:text-white'>
                                 <FaGithub />
                             </a>
-                            <a href='#' target='_blank' rel='noreferrer' aria-label='LinkedIn' className='hover:text-white'>
+                            <a href='https://www.linkedin.com/in/ludovic-moyenga' target='_blank' rel='noreferrer' aria-label='LinkedIn' className='hover:text-white'>
                                 <FaLinkedin />
                             </a>
-                            <a href='#' target='_blank' rel='noreferrer' aria-label='Facebook' className='hover:text-white'>
+                            <a href='https://web.facebook.com/profile.php?id=100082321161732' target='_blank' rel='noreferrer' aria-label='Facebook' className='hover:text-white'>
                                 <FaFacebook />
                             </a>
                         </div>

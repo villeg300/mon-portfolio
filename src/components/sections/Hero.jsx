@@ -2,8 +2,12 @@ import React from 'react'
 import { HERO_CONTENT } from '../../assets/data'
 import Moi from "../../assets/images/Moi.png"
 import { motion, useReducedMotion } from 'framer-motion'
+import { FaWhatsapp } from 'react-icons/fa'
 
 function Hero() {
+    const whatsAppNumber = '22674372878'
+    const message = 'Bonjour Ludovic, je souhaite discuter avec vous de vos services de développement web et mobile.'
+    const whatsappLink = `https://wa.me/${whatsAppNumber}?text=${encodeURIComponent(message)}`
     const prefersReduced = useReducedMotion()
     const imgAnim = prefersReduced
         ? {}
@@ -28,7 +32,9 @@ function Hero() {
                         </p>
                         <div className=' max-w-xl w-full'>
                             <a
-                                href='mailto:villeg300@gmail.com'
+                                href={whatsappLink}
+                                target='_blank'
+                                rel='noopener noreferrer'
                                 className='block w-full sm:w-11/12 md:w-3/4 lg:w-5/12 mx-auto lg:mx-0 mt-3 bg-secondary text-white px-4 py-2.5 sm:px-6 sm:py-3 rounded-xl text-base md:text-lg font-semibold border-2 border-secondary hover:bg-white hover:text-secondary transition-all duration-300 text-center cursor-pointer'
                                 aria-label='Me contacter'
                             >

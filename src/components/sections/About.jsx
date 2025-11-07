@@ -4,6 +4,9 @@ import { ABOUT_TEXT } from '../../assets/data'
 import { motion, useReducedMotion } from 'framer-motion'
 
 function About() {
+    const whatsAppNumber = '22674372878'
+    const message = 'Bonjour Ludovic, je souhaite discuter avec vous de vos services de développement web et mobile.'
+    const whatsappLink = `https://wa.me/${whatsAppNumber}?text=${encodeURIComponent(message)}`
     const prefersReduced = useReducedMotion()
     const sectionAnim = prefersReduced
         ? {}
@@ -20,7 +23,9 @@ function About() {
                         </div>
                         <div className='mt-3'>
                             <a
-                                href='mailto:villeg300@gmail.com'
+                                href={whatsappLink}
+                                target='_blank'
+                                rel='noopener noreferrer'
                                 className='block w-full sm:w-11/12 md:w-3/4 lg:w-7/12 mx-auto lg:mx-0 mt-3 bg-secondary text-white px-4 py-2.5 sm:px-6 sm:py-3 rounded-xl text-base md:text-lg font-semibold border-2 border-secondary hover:bg-white hover:text-secondary transition-all duration-300 text-center'
                                 aria-label='Contactez moi par email'
                             >
