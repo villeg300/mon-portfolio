@@ -17,14 +17,18 @@ function Contact() {
             setStatus({ type: 'error', text: 'Veuillez renseigner au minimum votre email et un message.' })
             return
         }
+        const whatsAppNumber = '22674372878'
 
-        // Fallback simple : ouvrir client mail avec mailto (aucun backend configuré)
-        const subject = `Contact depuis le site - ${name || 'Anonyme'}`
-        const body = `${message}\n\n---\nNom: ${name || '—'}\nEmail: ${email}`
-        const mailto = `mailto:villeg300@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
-        window.location.href = mailto
+        const url = `https://wa.me/${whatsAppNumber}?text=${encodeURIComponent(`Nom: ${name || 'Anonyme'}\nEmail: ${email}\n\nMessage: ${message}`)}`
+        window.open(url, '_blank')
 
-        setStatus({ type: 'success', text: 'Votre client mail va s’ouvrir pour envoyer le message.' })
+        // // Fallback simple : ouvrir client mail avec mailto (aucun backend configuré)
+        // const subject = `Contact depuis le site - ${name || 'Anonyme'}`
+        // const body = `${message}\n\n---\nNom: ${name || '—'}\nEmail: ${email}`
+        // const mailto = `mailto:villeg300@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+        // window.location.href = mailto
+
+        setStatus({ type: 'success', text: 'Votre message a été préparé dans WhatsApp. Veuillez l\'envoyer depuis l\'application.' })
         // keep fields as-is so user can edit if mail client not opened
     }
 
