@@ -1,7 +1,10 @@
 import logo from '../../assets/icons/luddev.svg'
-import { FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaFacebook, FaWhatsapp } from 'react-icons/fa'
 
 function Navbar() {
+    const whatsAppNumber = '22674372878'
+    const message = 'Bonjour Ludovic, je souhaite discuter avec vous de vos services de développement web et mobile.'
+    const whatsappLink = `https://wa.me/${whatsAppNumber}?text=${encodeURIComponent(message)}`
     return (
         <nav className=' mb-1 flex items-center justify-between py-6 border-b border-neutral-400'>
             <div className='flex flex-shrink-0 items-center'>
@@ -13,6 +16,11 @@ function Navbar() {
                 </a>
                 <a href='https://www.linkedin.com/in/ludovic-moyenga' target='_blank' rel='noreferrer' aria-label='LinkedIn'>
                     <FaLinkedin className=' cursor-pointer hover:text-blue-500' />
+                </a>
+                <a href={whatsappLink}
+                    target='_blank'
+                    rel='noopener noreferrer' aria-label='WhatsApp'>
+                    <FaWhatsapp className=' cursor-pointer hover:text-green-500' />
                 </a>
                 <a href='https://web.facebook.com/profile.php?id=100082321161732' target='_blank' rel='noreferrer' aria-label='Facebook'>
                     <FaFacebook className=' cursor-pointer hover:text-blue-600' />

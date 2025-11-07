@@ -11,10 +11,9 @@ export const EXPERIENCES = [
     role: "Développeur Frontend & Backend",
     company: "Projets personnels",
     description:
-      "Conception et développement d'un portfolio web moderne avec Django, React et Tailwind CSS. Développement d'une API d'envoi d'e-mails et optimisation des performances pour offrir une expérience utilisateur fluide.",
+      "Conception et développement d'un portfolio web moderne avec React et Tailwind CSS pour offrir une expérience utilisateur fluide.",
     github: "https://github.com/villeg300/mon-portfolio",
-    preview: "./",
-    technologies: ["Django", "React", "Vite", "Tailwind CSS", "PostgreSQL", "REST API", "Git"],
+    technologies: ["React", "Vite", "Tailwind CSS", "Git"],
   },
   {
     year: "Sep 2025",
@@ -56,3 +55,18 @@ export const EXPERIENCES = [
     technologies: ["Lovable AI", "React", "Tailwind CSS", "Git"],
   },
 ];
+
+export const FORMATIONS = [
+  {
+    id: 1,
+    image: '/src/assets/images/f1.png',
+    title: "Développement mobile cross-platform flutter",
+    institution: "GO AI Academy",
+    start: "Jui 2025",
+    end: "",
+    certified: true,
+    description: "Parcours orienté développement mobile cross-platform full-stack avec flutter : algorithmie, bases de données, API, gestion d'état, déploiement.",
+    skills: ['Dart', 'Flutter'],
+  },
+
+]
